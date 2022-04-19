@@ -1,0 +1,409 @@
+/* СТИЛИ ДЛЯ ГЛАВНОЙ СТРАНИЦЫ */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,700;0,900;1,900&family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 1500px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.headerInner {
+    padding: 20px 0px;
+}
+
+.logo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.search {
+    outline: none;
+    border: 2px solid black;
+    padding: 10px 20px;
+    margin-right: 20px;
+}
+
+.search::placeholder {
+    color: black;
+    font-weight: 500;
+}
+
+.action {
+    margin: 0px 15px;
+}
+
+.headerInner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list {
+    display: flex;
+}
+
+.list .elem {
+    margin-right: 10px;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+}
+
+.off-white-header {
+    background-image: url(../images/main.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    overflow: hidden
+}
+
+.mainInner {
+    padding: 200px 0px;
+}
+
+.main__text {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 2rem;
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+}
+
+.sectionsInner {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.5s ease;
+}
+
+.section:hover {
+    transform: scale(1.05);
+}
+
+.section:hover img {
+    box-shadow: 4px 4px 43px 0px rgba(34, 60, 80, 1);
+}
+
+.section__img {
+    width: 400px;
+    height: 550px;
+    transition: all 0.5s ease;
+}
+
+.section__heading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.review {
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.reviewInner {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.review__heading {
+    font-weight: 900;
+    text-align: center;
+}
+
+.form__submit {
+    background-color: #000000;
+    padding: 20px 80px;
+    color: white;
+    border: none;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.form__input {
+    margin: 10px 0px;
+    outline: none;
+}
+
+#radio {
+    transform: scale(1.2);
+    margin-right: 10px;
+}
+
+.form label {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.form__radio {
+    display: flex;
+    align-items: center;
+}
+
+.footer {
+    background-color: #EAEAEA;
+    padding: 20px 0px;
+}
+
+.footerInner {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer h2 {
+    margin: 0;
+}
+
+.footer ul li {
+    margin: 10px 0px;
+}
+
+.footer__actions {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__phone {
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.footer__review {
+    border-radius: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.footer__social {
+    display: flex;
+}
+
+.social__link {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.footer .logo {
+    margin-left: 100px;
+}
+
+.copyright {
+    text-align: center;
+}
+
+/* СТИЛИ ДЛЯ СТРАНИЦЫ OFF-WHITE */
+
+.off-white__heading {
+    color: white;
+    font-weight: 900;
+}
+
+.off-white__text {
+    color: white;
+}
+
+.off-white-inner {
+    padding: 100px;
+}
+
+.bread {
+    display: flex;
+    align-items: center;
+}
+
+.bread * {
+    margin: 0px 5px;
+    color: #808080;
+}
+
+.catalogInner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 100px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    width: 300px;
+    margin-bottom: 40px;
+}
+
+.card__heading {
+    font-size: 1.2rem;
+    margin: 20px 0px 5px 0px;
+}
+
+.card__price {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.carousel a {
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+    justify-content: center;
+    margin: 0px 20px;
+}
+
+.carousel a img {
+    padding: 0px 10px;
+}
+
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card__img {
+    width: 220px;
+}
+
+/* СТИЛИ ДЛЯ СТРАНИЦЫ OFF-WHITE */
+
+.form__label {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+.form__label * {
+    width: 400px;
+    border: 2px solid black;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+input:-webkit-autofill {
+    background-color: white;
+}
+
+.news3 {
+    background-color: black;
+    color: white;
+    padding: 15px 60px;
+    border: none;
+    margin-top: 20px;
+}
+
+@media (max-width: 1440px) {
+    .footerInner {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .footer .logo {
+        margin-left: 0;
+        order: -1;
+    }
+
+    .sectionsInner {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 1080px) {
+    .headerInner {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .catalogInner {
+        justify-content: center;
+    }
+
+    .off-white-inner {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    .form__label {
+        width: 100%;
+    }
+
+    .form__label * {
+        width: 90%;
+    }
+
+    .form__radio {
+        text-align: left;
+    }
+
+    .section__img {
+        width: 300px;
+        height: 450px;
+    }
+
+    .actions {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .search {
+        margin-right: 0px;
+    }
+
+    .carousel {
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoGande</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="headerInner">
+                <nav class="nav">
+                    <ul class="list">
+                        <li class="elem"><a href="catalog/t-shirts/t-shirt_1.html" class="link">Футболки</a></li>
+                        <li class="elem"><a href="catalog/hudi/hudi_1.html" class="link">Худи</a></li>
+                        <li class="elem"><a href="catalog/pantalons/pantalon_1.html" class="link">Штаны</a></li>
+                        <li class="elem"><a href="catalog/shoes/shoes_1.html" class="link">Кроссовки</a></li>
+                    </ul>
+                </nav>
+                <a href="index.html" class="logo">GOGANDE</a>
+                <div class="actions">
+                    <input type="text" class="search" placeholder="Поиск...">
+                    <a href="" class="action"><img src="images/profile.svg" alt="profile" class="action__img"></a>
+                    <a href="" class="action"><img src="images/cart.svg" alt="cart" class="action__img"></a>
+                    <a href="" class="action"><img src="images/favorite.svg" alt="favorite" class="action__img"></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <div class="mainInner">
+                <h1 class="main__text">On our site there is a <br> very large selection of <br> clothes</h1>
+            </div>
+        </div>
+    </main>
+    <section class="sections">
+        <div class="container">
+            <div class="sectionsInner">
+                <a class="section" href="catalog/balenciaga/balenciaga_1.html">
+                    <h3 class="section__heading">Balenciaga</h3>
+                    <img src="images/balenciaga.webp" alt="stone-island" class="section__img">
+                </a>
+                <a class="section" href="catalog/alexander/alexander_1.html">
+                    <h3 class="section__heading">Alexander McQueen</h3>
+                    <img src="images/alexander.webp" alt="north-face" class="section__img">
+                </a>
+                <a class="section" href="catalog/off-white/off-white_1.html">
+                    <h3 class="section__heading">Off-white</h2>
+                        <img src="images/off-white.jpg" alt="off-white" class="section__img">
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="review">
+        <div class="container">
+            <div class="reviewInner">
+                <h2 class="review__heading">ПОДЕЛИТЕСЬ СВОИМ <br> МНЕНИЕМ О САЙТЕ</h2>
+                <p class="review__text">Помогите нам стать еще лучше, написав отзыв!</p>
+                <form class="review_form form" action="server/message.php" method="post">
+                    <label class="form__label">
+                        Введите ваше имя
+                        <input type="text" name="name" required>
+                    </label>
+                    <label class="form__label">
+                        Напишите ваш отзыв
+                        <textarea name="message" rows="10" maxlength="300" required></textarea>
+                    </label>
+                    <div class="form__radio">
+                        <input type="radio" class="form__input" id="radio" required>
+                        <label for="radio">Я соглашаюсь с политикой конфиденциальности</label>
+                    </div>
+                    <input class="news3" type="submit" value="Отправить">
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footerInner">
+                <div class="footer__help-block help-block">
+                    <h2 class="help-block__heading">ПОМОЩЬ</h2>
+                    <ul class="footer__help help">
+                        <li class="help__elem"><a href="" class="help__link">О доставке</a></li>
+                        <li class="help__elem"><a href="" class="help__link">Возврат</a></li>
+                        <li class="help__elem"><a href="" class="help__link">Способы оплаты</a></li>
+                    </ul>
+                </div>
+                <div class="footer__about-block about-block">
+                    <h2 class="about-block__heading">О МАГАЗИНЕ</h2>
+                    <ul class="footer__about about">
+                        <li class="about__elem"><a href="" class="about__link">О нас</a></li>
+                        <li class="about__elem"><a href="" class="about__link">Сотрудничество</a></li>
+                        <li class="about__elem"><a href="" class="about__link">Бренды A-Z</a></li>
+                        <li class="about__elem"><a href="privacy/privacy.html" class="about__link">Политика
+                                конфиденциальности</a></li>
+                    </ul>
+                </div>
+                <a href="" class="logo">GOGANDE</a>
+                <div class="footer__actions">
+                    <a href="#" class="footer__phone">+7 (919) 605-42-22</a>
+                </div>
+                <div class="footer__social-block">
+                    <h2 class="footer__social-heading">СОЦИАЛЬНЫЕ СЕТИ</h2>
+                    <ul class="footer__social">
+                        <li class="social__elem"><a href="https://www.instagram.com/offwiter_/" class="social__link"><img src="images/inst.svg"
+                                    alt="instagram" class="social__icon"></a></li>
+                        <li class="social__elem"><a href="" class="social__link"><img src="images/twitter.svg"
+                                    alt="twitter" class="social__icon"></a></li>
+                        <li class="social__elem"><a href="" class="social__link"><img src="images/viber.svg" alt="viber"
+                                    class="social__icon"></a></li>
+                        <li class="social__elem"><a href="" class="social__link"><img src="images/whatsapp.svg"
+                                    alt="whatsapp" class="social__icon"></a></li>
+                        <li class="social__elem"><a href="" class="social__link"><img src="images/facebook.svg"
+                                    alt="facebook" class="social__icon"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <p class="copyright">© 2022 GOGANDE. Все права защищены.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
